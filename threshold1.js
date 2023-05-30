@@ -3,7 +3,7 @@ import {check} from 'k6';
 
 export const options = {
     thresholds: {
-        http_req_duration: ['p(95) < 200'], // p(percentile) < 200 milliseconds
+        http_req_duration: ['p(95) < 20'], // p(percentile) < 200 milliseconds
     }
 }
 
